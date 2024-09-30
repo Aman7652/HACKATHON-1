@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+   /* font-family: "Poppins", sans-serif;*/
+}
+/* header part*/
+header{
+        width: 100%;
+    height: 166px;
+    text-align: center;
+
+    position: fixed;
+    background: white;
+}
+.bar{
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 25px;
+}
+H1{
+    color: #438158;
+    MARGIN-TOP: 20px;
+    
+}
+H4{
+    color: gray;
+    margin-top: 12px;
+}
+.option1{
+    text-decoration: none;
+    color: gray;
+    margin-right: 40px;
+}
+.option1:hover{
+    color: #5db47a;
+}
+.option2{
+    text-decoration: none;
+    color: gray;
+}
+.option2:hover{
+    color: #5db47a;
+}
+.option3{
+    text-decoration: none;
+    color: gray;
+    margin-left: 40px;
+}
+.option3:hover{
+    color: #5db47a;
+}
+.transparent{
+    border: 5px solid rgb(0,0,0,0.1);
+}
+/*page 1*/
+.firstpage{
+    padding-top: 166px;
+    width: 100%;
+    height: 555px;
+    background-color: #65BD83;
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+}
+.info{
+    font-size: 21px;
+}
+.info#p1{
+    margin-top: 25px;
+}
+.info#p4{
+    margin-top: 25px;
+}
+.info#p6{
+    margin-top: 25px;
+    color: rgb(70, 70, 70);
+}
+.info#p7{
+    color: rgb(70, 70, 70);
+}
+/*second page*/
+.secondpage{
+    width: 100%;
+    height: 800PX;
+    text-align: center;
+    margin-top: 150px;
+
+}
+.circle{
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #65BD83;
+    width: 35%;
+    height: 55%;
+}
+.Skills{
+    margin-top: 20px;
+    color: grey;
+    font-size: 27px;
+}
+.develop{
+    font-size: 25px;
+     margin-top: 170px;
+}
+/*regestration*/
+.endpage{
+    width: 100%;
+    height:auto;
+
+}
+.heading{
+    color:darkcyan; 
+    text-align: center;
+    margin-top: 30px;
+}
+.FILL{
+    text-align: center;
+     text-decoration: underline;
+     margin-top: 15px;
+}
+.rect1{
+    margin-left: 32%;
+    margin-right: 20%;
+    margin-top: 100px;
+    display: inline-block;
+    width: 35%;
+    height:auto;
+    border: 2px solid  rgb(0,0,0,0.1);
+    box-shadow: 2px,2px,2px,2px solid rgb(0,0,0,0.1);
+}
+.rect2{
+    margin: 7%;
+    display: inline-block;
+    background-color:white;
+    width: 85%;
+    height: auto;
+    border: 2px solid rgb(0,0,0,0.1);
+    box-shadow: 2px,2px,2px,2px solid rgb(0,0,0,0.01);
+}
+.namebox{
+    border: none;
+    margin-top: 40px;
+    border-bottom: 2px solid;
+    width: 310px;
+    outline: none;
+}
+.emailbox{
+    border: none;
+    margin-top: 40px;
+    border-bottom: 2px solid;
+    width: 310px;
+    outline: none;
+}
+.numberbox{
+    border: none;
+    margin-top: 40px;
+    border-bottom: 2px solid;
+    width: 310px;
+    outline: none;
+}
+.collagebox{
+    border: none;
+    margin-top: 40px;
+    border-bottom: 2px solid;
+    width: 310px;
+    outline: none;
+}
+.deptbox{
+    border: none;
+    margin-top: 40px;
+    border-bottom: 2px solid;
+    width: 310px;
+    outline: none;
+}
+.submit-btn{
+    margin-bottom: 30px;
+    border-radius: 11%;
+    padding: 2%;
+    width: 95px;
+    color: white;
+    background-color: #343232;
+}
